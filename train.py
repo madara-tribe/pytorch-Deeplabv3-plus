@@ -1,8 +1,4 @@
-from google.colab import drive
-drive.mount('/content/drive')
-
 !pip install visdom torchvision
-
 
 from tqdm import tqdm
 import os
@@ -95,8 +91,6 @@ def save_ckpt(path):
 
 def get_dataset(train_img_dir, train_mask_dir, valid_img_dir, valid_mask_dir,
                 crop_size = 513, crop_val = False):
-    img_dir = '/content/drive/My Drive/tmp/voc_jpeg'
-    mask_dir = '/content/drive/My Drive/tmp/voc_anno'
     """ Dataset And Augmentation
     """
     train_transform = et.ExtCompose([
@@ -143,7 +137,7 @@ def main():
 
     print('set up parameter')
     val_batch_size = 1
-    num_classes = 51
+    num_classes = 21
 
     output_stride = 16
     lr = 0.01
