@@ -18,16 +18,23 @@
 # How to train, mask annotation pixels and accuracy
 
 <b>How to train</b>
-It is almost equal to fcn segmentation but NN structure is almost different
+
+It is almost equal to fcn segmentation but deeplabv3plus network structure is almost different
+
 ・activation => relu
+
 ・last layer shape => (None, H, W, 3)
+
 ・jpg image is loaded by RGB
+
 ・png mask image is loaded by grayscale
 
 <b>mask annotation pixels</b>
+
 Its is completely equal to fcn segmentation mask image
 ```If voc case, its num classes are 21 and its pixels range from 0 to 21```
 
 
 <b>accuracy</b>
+
 Its speed is less than fcn segmentation, but accuracy is more than fcn segmentation
