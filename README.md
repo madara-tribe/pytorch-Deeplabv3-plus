@@ -13,7 +13,10 @@
 
 ![image3](https://user-images.githubusercontent.com/48679574/74228936-c47dad00-4d04-11ea-82bd-7bccfe8b48a9.png)
 
-<b>original image (image/ overlay / segmentation)</b>
+<b>original image (image/ overlay / segmentation)</b><hr>
+
+![original_image](https://user-images.githubusercontent.com/48679574/74244195-652f9500-4d24-11ea-95ad-74bd5fc6b6d9.png)
+
 
 # How to train, mask annotation pixels, masking color type and accuracy
 
