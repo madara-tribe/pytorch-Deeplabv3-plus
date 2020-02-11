@@ -41,4 +41,4 @@ Mask color type is equal to its indexmap color.
 
 <b>accuracy</b>
 
-Its speed is less than fcn segmentation, but accuracy is more than fcn segmentation
+Its accuracy is more than fcn segmentation (training time for good accuracy is longer than fcn)
