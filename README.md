@@ -15,25 +15,29 @@
 
 <b>original image (image/ overlay / segmentation)</b>
 
-# How to train, mask annotation pixels and accuracy
+# How to train, mask annotation pixels, masking color type and accuracy
 
 <b>How to train</b>
 
 It is almost equal to fcn segmentation but deeplabv3plus network structure is almost different
 
-・activation => relu
+・Activation => Relu
 
-・last layer shape => (None, H, W, 3)
+・Last layer shape => (None, H, W, 3)
 
-・jpg image is loaded by RGB
+・Jpg image is loaded by RGB
 
-・png mask image is loaded by grayscale
+・Png mask image is loaded by grayscale
 
 <b>mask annotation pixels</b>
 
 Its is completely equal to fcn segmentation mask image
+
 ```If voc case, its num classes are 21 and its pixels range from 0 to 21```
 
+<b>masking color type</b>
+
+Mask color type is equal to its indexmap color.
 
 <b>accuracy</b>
 
