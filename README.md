@@ -1,4 +1,4 @@
-# pytorch-Deeplabv3-plus's performance
+# pytorch-Deeplabv3-plus performance
 
 <b>voc image1 (image/ overlay / segmentation)</b><hr>
 
